@@ -1,0 +1,27 @@
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+
+# Line length — disabled so you can write one-line-per-paragraph (Obsidian style)
+MD013: false
+
+# First line should be a top-level heading — disable for snippet-style files
+MD041: false
+
+# Consistent unordered list style — use dash everywhere
+MD004:
+  style: dash
+
+# Ordered list prefix — allow any number (easier to edit)
+MD029:
+  style: one_or_ordered
+
+# Inline HTML — allow it (useful for advanced formatting, badges, etc.)
+MD033: false
+
+# Fenced code blocks should have a language specified — keep enabled for accessibility
+MD040: true
+
+# Bare URLs — allow them (most renderers auto-link anyway)
+MD034: false
+
+# Trailing spaces — keep enabled, but let me know if you want it off
+MD009: true
