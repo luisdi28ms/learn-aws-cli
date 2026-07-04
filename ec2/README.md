@@ -18,6 +18,8 @@ In AWS: Security Group == Firewall
 3. The security group allows inbound traffic on 22/tcp from our public IP address.
 4. Our SSH private key matches the public key we uploaded to AWS.
 
+Note: I made a mistake with AMI version, to fix it I only needed to launch a new instance and then attach the sg group and associate teh eip address previously created.
+
 ### Cost Summary
 
 Currently using the EC2 instance and Elastic IP; cost remains ~$7.60/mo for the instance plus ~$3.60/mo for the EIP.

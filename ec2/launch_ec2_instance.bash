@@ -1,4 +1,4 @@
-aws ec2 run-instances --image-id ami-0ff8a91507f77f867 \
+aws ec2 run-instances --image-id ami-00b2eb779cc80e1f9 \
   --instance-type t3.micro \
   --key-name patientping-key \
   --subnet-id subnet-0fb6b8382037df21b \
