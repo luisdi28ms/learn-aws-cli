@@ -2,7 +2,7 @@ aws ec2 create-launch-template \
   --launch-template-name patientping-web-launcher \
   --version-description "Launch template for t3.micro with PatientPing app preinstalled" \
   --launch-template-data '{
-      "ImageId": "ami-00b2eb779cc80e1f9",
+      "ImageId": "ami-08a6b2a7e910f510c",
       "InstanceType": "t3.micro",
       "KeyName": "patientping-key",
       "NetworkInterfaces": [

@@ -22,6 +22,12 @@ Launching more servers on a rush hour or relaunching a server whenever the curre
 
 Note: I made a mistake with AMI version, to fix it I only needed to launch a new instance and then attach the sg group and associate the eip address previously created.
 
+When launching ec2 from template the only needed change is to allocate the eip address. If connecting through ssh make sure to update the host key:
+
+```bash
+ssh-keygen -R [EIP Address]
+```
+
 ### Cost Summary
 
 Currently using the EC2 instance and Elastic IP; cost remains ~$7.60/mo for the instance plus ~$3.60/mo for the EIP.
