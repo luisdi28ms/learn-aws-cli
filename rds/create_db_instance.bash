@@ -1,0 +1,17 @@
+aws rds create-db-instance \
+  --db-instance-identifier patientping-db \
+  --db-instance-class db.t3.micro \
+  --engine postgres \
+  --master-username postgres \
+  --master-user-password XmnPPDQ6GR9pi \
+  --allocated-storage 20 \
+  --storage-type gp2 \
+  --db-name patientping \
+  --db-subnet-group-name patientping-private-subnet-group \
+  --vpc-security-group-ids sg-043eaac8c9505f1ed \
+  --availability-zone us-east-1a \
+  --no-publicly-accessible \
+  --no-multi-az \
+  --backup-retention-period 1 \
+  --no-enable-performance-insights \
+  --no-deletion-protection
