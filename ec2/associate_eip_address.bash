@@ -1,1 +1,1 @@
-aws ec2 associate-address --instance-id i-084f364dc4d6cdade --allocation-id eipalloc-0146e6427461eff73
+aws ec2 associate-address --instance-id i-0c629be68e71091dd --allocation-id eipalloc-06bbae892f29cdc57

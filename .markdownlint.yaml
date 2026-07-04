@@ -25,3 +25,5 @@ MD034: false
 
 # Trailing spaces — keep enabled, but let me know if you want it off
 MD009: true
+
+MD029: false
