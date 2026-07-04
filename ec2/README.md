@@ -11,6 +11,8 @@ Why Internet Service Providers (ISP) change IP addresses?
 
 In AWS: Security Group == Firewall
 
+Launching more servers on a rush hour or relaunching a server whenever the current one crashes can be achieved with Auto Scaling Groups (ASG)
+
 ## Summary
 
 1. EC2 instance communicates with the server's public Elastic IP address.
@@ -18,7 +20,7 @@ In AWS: Security Group == Firewall
 3. The security group allows inbound traffic on 22/tcp from our public IP address.
 4. Our SSH private key matches the public key we uploaded to AWS.
 
-Note: I made a mistake with AMI version, to fix it I only needed to launch a new instance and then attach the sg group and associate teh eip address previously created.
+Note: I made a mistake with AMI version, to fix it I only needed to launch a new instance and then attach the sg group and associate the eip address previously created.
 
 ### Cost Summary
 
@@ -26,5 +28,6 @@ Currently using the EC2 instance and Elastic IP; cost remains ~$7.60/mo for the 
 
 ## References
 
-- [Elastic IP Address](!https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html)
+- [Elastic IP Address](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html)
 - [Security Group](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html)
+- [Auto Scaling Group](https://docs.aws.amazon.com/autoscaling/ec2/userguide/auto-scaling-groups.html)
