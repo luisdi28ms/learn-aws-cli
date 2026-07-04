@@ -12,3 +12,7 @@ AWS utilizes the following components to manage access:
 - Roles: Temporary identities assumed by users, systems, or apps.
 - Trust Policies: Which entities can assume which roles.
 - Policy: Rules around what can users or roles can do.
+
+## References
+
+- [Policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html)
