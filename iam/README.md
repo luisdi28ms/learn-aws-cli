@@ -16,3 +16,4 @@ AWS utilizes the following components to manage access:
 ## References
 
 - [Policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html)
+- [Policies II](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_managed-vs-inline.html#customer-managed-policies)
