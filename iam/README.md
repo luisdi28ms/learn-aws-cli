@@ -20,6 +20,10 @@ There is a Instance Profile component that handles the permissions for the EC2 i
 - `./create_instance_profile.bash`
 - `./add_role_to_instance_profile.bash`
 
+## Systems Manager Parameter Store (SSM)
+
+Centralized safe to keep parameters, and configuration data. It can be accessed via IAM.
+
 ## References
 
 - [Policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html)
