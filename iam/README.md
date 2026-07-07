@@ -24,6 +24,12 @@ There is a Instance Profile component that handles the permissions for the EC2 i
 
 Centralized safe to keep parameters, and configuration data. It can be accessed via IAM.
 
+SSM supports dir paths so you could grant access accordingly like:
+
+- global/*
+- [Project Name]/*
+- env/debug
+
 ## References
 
 - [Policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html)
